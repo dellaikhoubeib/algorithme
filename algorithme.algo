@@ -1,0 +1,21 @@
+
+function longueurPhrase(phrase) {
+ 
+    if (!phrase || phrase.length === 0) {
+        console.log("La phrase est vide ou non définie.");
+        return 0;
+    }
+
+    
+    var longueur = phrase.length;
+
+    
+    console.log("La longueur de la phrase est : " + longueur);
+
+ 
+    return longueur;
+}
+
+var phraseExemple = "Bonjour le monde.";
+longueurPhrase(phraseExemple);
+
